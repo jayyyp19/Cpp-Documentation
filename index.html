@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cpp Documentation </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="main-body">
+    <nav id="navbar">
+        <header>
+            Cpp Documentation
+        </header>
+        <a href="#Introduction_to_C++" class="nav-link">Introduction to C++</a>
+        <a href="#Data_types" class="nav-link">Data types</a>
+        <a href="#Variables" class="nav-link">Variables</a>
+        <a href="#Arrays" class="nav-link">Arrays</a>
+        <a href="#Function" class="nav-link">Function</a>
+        </nav>
+
+        <main id="main-doc">
+       <section class="main-section" id="Introduction_to_C++">
+        <header>
+            Introduction to C++
+        </header>
+        <p>C++ is a general-purpose programming language that was developed as an enhancement of the C language to include object-oriented paradigm. It is an imperative and a compiled language. </p>
+        <p>Applications of C++: <br>
+            C++ finds varied usage in applications such: <br>
+            
+            1.Operating Systems & Systems <br>
+            2.Browsers <br>
+            3.Graphics & Game engines </p>
+         <p>Examples:</p>   
+         <code>"#include < iostream > <br>
+            using namespace std;<br>
+            
+            int main() {<br>
+              cout << "Hello World!";<br>
+              return 0;
+            }"</code>
+           
+       </section>
+       <section class="main-section" id="Data_types">
+        <header>Data types</header>
+        <p>Whenever a variable is defined in C++, the compiler allocates some memory for that variable based on the data-type with which it is declared. Every data type requires a different amount of memory.</p>
+        <p>Data types in C++ is mainly divided into three types: <br>
+            1.Primitive Data Types: These data types are built-in or predefined data  types and can be used directly by the user to declare variables. example: int, char , float, bool etc. Primitive data types available in C++ are: 
+           <ul> <li>Integer</li> 
+            <li>Character</li>
+            <li>Boolean</li>
+            <li>Floating Point</li></ul>
+            2.Derived Data Types: The data-types that are derived from the primitive   or built-in datatypes are referred to as Derived Data Types. These can be of four types namely: 
+            <ul><li>Function</li> 
+            <li>Array</li>
+            <li>Pointer</li></ul>
+            3.Abstract or User-Defined Data Types: These data types are defined by user itself.  Like, defining a class in C++ or a structure. C++ provides the following user-defined datatypes: 
+           <ul><li>Class</li> 
+            <li>Structure</li>
+            <li>Union</li>
+            <li>Typedef defined DataType</li></ul></p>
+            <p>Examples:</p> 
+            <code>"int myNum = 5;               // Integer (whole number) <br>
+                float myFloatNum = 5.99;     // Floating point number<br>
+                double myDoubleNum = 9.98;   // Floating point number<br>
+                char myLetter = 'D';         // Character<br>
+                bool myBoolean = true;       // Boolean<br>
+                string myText = "Hello";     // String"</code>
+       </section>
+       <section class="main-section" id="Variables">
+        <header>Variables</header> 
+        <p>A variable is a name given to a memory location. It is the basic unit of storage in a program. <br>
+         <ul>
+           <li> The value stored in a variable can be changed during program execution.</li>
+           <li>A variable is only a name given to a memory location, all the operations done on the variable effects that memory location.</li> 
+           <li>In C++, all the variables must be declared before use.</li></ul> </p> 
+        <p></p> 
+        <p>Examples:</p> 
+        <code>"int myNum = 15; <br>
+            cout << myNum;"</code>
+       </section>
+       <section class="main-section" id="Arrays">
+        <header>Arrays</header>   
+        <p>An array in C/C++ or be it in any programming language is a collection of similar data items stored at contiguous memory locations and elements can be accessed randomly using indices of an array.  They can be used to store collection of primitive data types such as int, float, double, char, etc of any particular type. </p> 
+        <p>To add to it, an array in C/C++ can store derived data types such as the structures, pointers etc. Given below is the picture representation of an array.</p> 
+        <p>Examples:</p> 
+        <code>"string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};"</code><br>
+        <code>"string Employee[4] = {"Rohan", "Mohan", "Rocky", "Depesh"}; <br>
+            cout << Employee[0];<br>
+            // Outputs Rohan"</code>
+       </section>
+       <section class="main-section" id="Function">
+           <header>Function</header>
+           <p>A function is a block of code which only runs when it is called.</p>
+
+          <p>You can pass data, known as parameters, into a function.</p>  
+         
+          <code>return number * number;</code>
+       </section>
+    </main>
+</div>
+</body>
+</html>
